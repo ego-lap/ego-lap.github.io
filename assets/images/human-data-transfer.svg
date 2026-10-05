@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="259.2pt" viewBox="0 0 432 259.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Human data improves zero-shot simulation transfer</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Human data improves zero-shot simulation transfer</dc:title>
+    <dc:date>2026-10-05T03:57:16.875667</dc:date>
+    <dc:description>Values from the current EgoLAP paper; reproduced as vectors without added error bars.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 259.2 
+L 432 259.2 
+L 432 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 144.01 192.62 
+L 413.3 192.62 
+L 413.3 18.7 
+L 144.01 18.7 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 144.01 192.62 
+L 144.01 18.7 
+" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e4eae3; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="fill: #798279; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="144.01" y="212.978281" transform="rotate(-0 144.01 212.978281)">0%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 202.551304 192.62 
+L 202.551304 18.7 
+" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e4eae3; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="fill: #798279; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="202.551304" y="212.978281" transform="rotate(-0 202.551304 212.978281)">5%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 261.092609 192.62 
+L 261.092609 18.7 
+" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e4eae3; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="fill: #798279; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="261.092609" y="212.978281" transform="rotate(-0 261.092609 212.978281)">10%</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 319.633913 192.62 
+L 319.633913 18.7 
+" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e4eae3; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="fill: #798279; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="319.633913" y="212.978281" transform="rotate(-0 319.633913 212.978281)">15%</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 378.175217 192.62 
+L 378.175217 18.7 
+" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e4eae3; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="fill: #798279; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="378.175217" y="212.978281" transform="rotate(-0 378.175217 212.978281)">20%</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="fill: #637067; font: 10px 'DejaVu Sans', sans-serif; text-anchor: middle" x="278.655" y="237.864375" transform="rotate(-0 278.655 237.864375)">Zero-shot simulation success rate</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="fill: #34473d; font: 11px 'DejaVu Sans', sans-serif; text-anchor: end" x="132.01" y="55.692192" transform="rotate(-0 132.01 55.692192)">Human + robot data</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12"/>
+     <g id="text_8">
+      <text style="fill: #34473d; font: 11px 'DejaVu Sans', sans-serif; text-anchor: end" x="132.01" y="163.98609" transform="rotate(-0 132.01 163.98609)">Robot data only</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 144.01 26.605455 
+L 336.025478 26.605455 
+L 336.025478 76.420648 
+L 144.01 76.420648 
+z
+" clip-path="url(#p84924860c5)" style="fill: #28624d"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 144.01 134.899352 
+L 228.309478 134.899352 
+L 228.309478 184.714545 
+L 144.01 184.714545 
+z
+" clip-path="url(#p84924860c5)" style="fill: #a8beae"/>
+   </g>
+   <g id="text_9">
+    <text style="fill: #28624d; font: 700 12px 'DejaVu Sans', sans-serif; text-anchor: start" x="341.879609" y="54.824301" transform="rotate(-0 341.879609 54.824301)">16.4%</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #28624d; font: 700 12px 'DejaVu Sans', sans-serif; text-anchor: start" x="234.163609" y="163.118199" transform="rotate(-0 234.163609 163.118199)">7.2%</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p84924860c5">
+   <rect x="144.01" y="18.7" width="269.29" height="173.92"/>
+  </clipPath>
+ </defs>
+</svg>

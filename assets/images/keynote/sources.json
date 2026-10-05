@@ -1,0 +1,149 @@
+{
+  "archive": "egolap_figures.key",
+  "assets": [
+    {
+      "file": "human-mecka.webp",
+      "source": "Data/mecka-10127.png",
+      "dimensions": [
+        576,
+        416
+      ],
+      "resized": false
+    },
+    {
+      "file": "human-aria.webp",
+      "source": "Data/aria-10131.png",
+      "dimensions": [
+        1830,
+        1698
+      ],
+      "resized": false
+    },
+    {
+      "file": "robot-agibot.webp",
+      "source": "Data/agibot-9908.png",
+      "dimensions": [
+        920,
+        624
+      ],
+      "resized": false
+    },
+    {
+      "file": "robot-yam.webp",
+      "source": "Data/IMG_0363-12872.jpg",
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "resized": false
+    },
+    {
+      "file": "simulation-tasks.webp",
+      "source": "Data/perturbation_03_seed_20260513-11838.png",
+      "dimensions": [
+        1920,
+        1440
+      ],
+      "resized": false
+    },
+    {
+      "file": "results-simulation.png",
+      "source": "Data/pasted-movie-13000.png",
+      "dimensions": [
+        3793,
+        1313
+      ],
+      "resized": false
+    },
+    {
+      "file": "results-real-world.png",
+      "source": "Data/pasted-movie-13021.png",
+      "dimensions": [
+        3793,
+        1319
+      ],
+      "resized": false
+    },
+    {
+      "file": "reasoning-comparison.png",
+      "source": "Data/pasted-movie-12750.png",
+      "dimensions": [
+        2237,
+        1574
+      ],
+      "resized": false
+    },
+    {
+      "file": "human-fold-1.png",
+      "source": "Data/human_01_anchor_02-10921.png",
+      "dimensions": [
+        224,
+        224
+      ],
+      "resized": false
+    },
+    {
+      "file": "human-fold-2.png",
+      "source": "Data/human_02_anchor_04-10924.png",
+      "dimensions": [
+        224,
+        224
+      ],
+      "resized": false
+    },
+    {
+      "file": "human-fold-3.png",
+      "source": "Data/human_03_anchor_08-10926.png",
+      "dimensions": [
+        224,
+        224
+      ],
+      "resized": false
+    },
+    {
+      "file": "human-fold-4.png",
+      "source": "Data/human_04_anchor_21-10928.png",
+      "dimensions": [
+        224,
+        224
+      ],
+      "resized": false
+    },
+    {
+      "file": "robot-fold-1.png",
+      "source": "Data/robot_01_anchor_36-10963.png",
+      "dimensions": [
+        168,
+        168
+      ],
+      "resized": false
+    },
+    {
+      "file": "robot-fold-2.png",
+      "source": "Data/robot_02_anchor_50-10964.png",
+      "dimensions": [
+        168,
+        168
+      ],
+      "resized": false
+    },
+    {
+      "file": "robot-fold-3.png",
+      "source": "Data/robot_03_anchor_70-10965.png",
+      "dimensions": [
+        168,
+        168
+      ],
+      "resized": false
+    },
+    {
+      "file": "robot-fold-4.png",
+      "source": "Data/robot_04_anchor_84-10966.png",
+      "dimensions": [
+        168,
+        168
+      ],
+      "resized": false
+    }
+  ]
+}
