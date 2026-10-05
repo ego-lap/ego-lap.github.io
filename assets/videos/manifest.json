@@ -1,1 +1,121 @@
-[]
+[
+  {
+    "file": "video_2026_10_03_18_49_46.mp4",
+    "poster": "video_2026_10_03_18_49_46.jpg",
+    "title": "Fold pants",
+    "source": "video_2026_10_03_18_49_46.mp4",
+    "original_size": [
+      672,
+      224
+    ],
+    "crop": [
+      672,
+      124,
+      0,
+      50
+    ],
+    "category": "Deformable manipulation"
+  },
+  {
+    "file": "05_red-bottle-in-bowl__video_egolap_pick_red_bottle_success_2026_08_12_18_43_00.mp4",
+    "poster": "05_red-bottle-in-bowl__video_egolap_pick_red_bottle_success_2026_08_12_18_43_00.jpg",
+    "title": "Place the red bottle",
+    "source": "05_red-bottle-in-bowl__video_egolap_pick_red_bottle_success_2026_08_12_18_43_00.mp4",
+    "original_size": [
+      672,
+      224
+    ],
+    "crop": [
+      672,
+      124,
+      0,
+      50
+    ],
+    "category": "Pick and place"
+  },
+  {
+    "file": "03_wipe-blue-bowl__video_ego_lap_reasoning_wipe_the_blue_bowl_success_2026_09_08_16_54_32.mp4",
+    "poster": "03_wipe-blue-bowl__video_ego_lap_reasoning_wipe_the_blue_bowl_success_2026_09_08_16_54_32.jpg",
+    "title": "Wipe the blue bowl",
+    "source": "03_wipe-blue-bowl__video_ego_lap_reasoning_wipe_the_blue_bowl_success_2026_09_08_16_54_32.mp4",
+    "original_size": [
+      672,
+      224
+    ],
+    "crop": [
+      672,
+      124,
+      0,
+      50
+    ],
+    "category": "Object wiping"
+  },
+  {
+    "file": "y__2026_09_11_16_46_12.mp4",
+    "poster": "y__2026_09_11_16_46_12.jpg",
+    "title": "Place the blue bowl",
+    "source": "y__2026_09_11_16_46_12.mp4",
+    "original_size": [
+      672,
+      224
+    ],
+    "crop": [
+      672,
+      124,
+      0,
+      50
+    ],
+    "category": "Cluttered scene"
+  },
+  {
+    "file": "lap_reason__2026_09_09_22_20_30.mp4",
+    "poster": "lap_reason__2026_09_09_22_20_30.jpg",
+    "title": "Handle the cloth",
+    "source": "lap_reason__2026_09_09_22_20_30.mp4",
+    "original_size": [
+      672,
+      224
+    ],
+    "crop": [
+      672,
+      124,
+      0,
+      50
+    ],
+    "category": "Bimanual coordination"
+  },
+  {
+    "file": "video_2026_10_03_18_26_33.mp4",
+    "poster": "video_2026_10_03_18_26_33.jpg",
+    "title": "Manipulate the cloth",
+    "source": "video_2026_10_03_18_26_33.mp4",
+    "original_size": [
+      672,
+      224
+    ],
+    "crop": [
+      672,
+      124,
+      0,
+      50
+    ],
+    "category": "Bimanual coordination"
+  },
+  {
+    "file": "lap_reason__2026_09_16_16_51_17.mp4",
+    "poster": "lap_reason__2026_09_16_16_51_17.jpg",
+    "title": "Manipulate the corn",
+    "source": "lap_reason__2026_09_16_16_51_17.mp4",
+    "original_size": [
+      672,
+      224
+    ],
+    "crop": [
+      672,
+      124,
+      0,
+      50
+    ],
+    "category": "Object manipulation"
+  }
+]

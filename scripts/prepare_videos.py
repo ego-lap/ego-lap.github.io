@@ -12,10 +12,7 @@ import re
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
-NAMES = {
-    '05_red-bottle-in-bowl__video_egolap_pick_red_bottle_success_2026_08_12_18_43_00': 'Place the red bottle in the bowl',
-    '03_wipe-blue-bowl__video_ego_lap_reasoning_wipe_the_blue_bowl_success_2026_09_08_16_54_32': 'Wipe the blue bowl',
-}
+NAMES = {'video_2026_10_03_18_49_46': 'Fold pants', '05_red-bottle-in-bowl__video_egolap_pick_red_bottle_success_2026_08_12_18_43_00': 'Place the red bottle', '03_wipe-blue-bowl__video_ego_lap_reasoning_wipe_the_blue_bowl_success_2026_09_08_16_54_32': 'Wipe the blue bowl', 'y__2026_09_11_16_46_12': 'Place the blue bowl', 'lap_reason__2026_09_09_22_20_30': 'Handle the cloth', 'video_2026_10_03_18_26_33': 'Manipulate the cloth', 'lap_reason__2026_09_16_16_51_17': 'Manipulate the corn'}
 
 def run(command):
     return subprocess.run(command, check=True, capture_output=True, text=True)

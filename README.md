@@ -1,6 +1,6 @@
 # EgoLAP project website
 
-Static project website for **EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning**. Content and author order come from the current `-ICLR-2027-Ego-LAP/arxiv.tex` release and shared paper sections. Design follows the centered research-page layout, orange accent, wave header, and section navigation of https://lap-vla.github.io/. HTML, CSS, and JavaScript are implemented independently.
+Static project website for **EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning**. Content and author order come from the current `-ICLR-2027-Ego-LAP/arxiv.tex` release and shared paper sections. The design uses a warm neutral background, forest-green accents, spacious typography, a prominent interactive video showcase, and a sticky navigation bar. HTML, CSS, and JavaScript are implemented independently. Research content is retained from the paper; the new layout prioritizes its demonstrations.
 
 ## Preview
 
@@ -10,15 +10,17 @@ The included paper PDF was built from the existing public-release source. No acc
 
 ## Videos
 
-The supplied Slack message lists seven MP4 files. Slack's connector can read the message but returns `file_not_found` for all seven download requests. No substitute videos are used. The empty gallery stays hidden until real clips are available.
+All seven user-provided clips are included. Each original 672×224 three-camera video had 50-pixel black borders above and below the content; the encoded output is cropped to 672×124. Original attachments remain untouched. H.264 output uses fast-start metadata and includes posters.
 
-Download the attachments into a folder outside this checkout, then run:
+The showcase includes task selection, all-camera and individual-camera views, playback speed, seeking, pause, and fullscreen. Mobile starts with the base camera to keep the action readable. Autoplay is disabled for reduced-motion preferences; videos pause when outside the viewport or when the page is hidden.
+
+To process new clips, download them into a folder outside this checkout and run:
 
 ```sh
-python scripts/prepare_videos.py /path/to/slack-downloads
+python scripts/prepare_videos.py /path/to/videos
 ```
 
-This samples frames across each video, detects black borders, conservatively combines content bounds, crops the actual encoded video, outputs browser-compatible H.264 with fast-start metadata, and creates posters plus `assets/videos/manifest.json`. Originals are retained. Provide `--titles captions.json` to label clips whose task is not identifiable from their filename. Inspect the processed clips before publication.
+Use `--titles captions.json` to label new clips. Captions for the supplied clips describe their visible manipulation; the two cloth clips use neutral labels because the source filenames do not provide task instructions. The video manifest controls showcase order and labels.
 
 ## GitHub organization and Pages
 
@@ -35,4 +37,4 @@ The included GitHub Actions workflow publishes the site at https://ego-lap.githu
 
 ## Validation
 
-Browser checks at desktop and mobile sizes verify image loading, horizontal overflow, and JavaScript errors. The citation button supports copying with a readable fallback. Tables scroll on narrow screens; navigation and controls support keyboard focus and reduced motion. Deployment contains only the public site and its assets, excluding processing scripts and documentation.
+Browser checks at 1440, 1024, 768, and 390 pixels verify image loading, horizontal overflow, and JavaScript errors. All seven cropped clips play in the browser. Task switching, playback speed, camera views, citation copying, and reduced-motion behavior are checked. The citation button supports copying with a readable fallback. Tables scroll on narrow screens; navigation and controls support keyboard focus and reduced motion. Deployment contains only the public site and its assets, excluding processing scripts and documentation.
