@@ -144,6 +144,15 @@
         168
       ],
       "resized": false
+    },
+    {
+      "file": "robot-bridge.webp",
+      "source": "Data/bridge-9926.png",
+      "dimensions": [
+        662,
+        498
+      ],
+      "resized": false
     }
   ]
 }
