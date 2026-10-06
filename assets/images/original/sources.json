@@ -1,0 +1,28 @@
+{
+  "figure_1": {
+    "file": "fig1_teaser.png",
+    "native_size": [
+      2594,
+      982
+    ],
+    "displayed_panels": "left two",
+    "visible_bounds": [
+      0,
+      0,
+      1950,
+      982
+    ],
+    "source": "-ICLR-2027-Ego-LAP/figures/fig1_teaser.png",
+    "sha256": "56c989fc622466bc1dd57ddf66bb2ce95822ad69f982bfd1923aeccfe694cb70"
+  },
+  "figure_2": {
+    "file": "fig21_method.png",
+    "native_size": [
+      2954,
+      1086
+    ],
+    "displayed_panels": "complete original",
+    "source": "-ICLR-2027-Ego-LAP/figures/fig21_method.png",
+    "sha256": "90ed009d19062e8deacf63f399e681c9209a7486f631f0b08a056baff46009b3"
+  }
+}

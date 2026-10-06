@@ -10,11 +10,11 @@ The included paper PDF was built from the existing public-release source. No acc
 
 ## Visual assets
 
-Website visuals use ingredients from the user-supplied `egolap_figures.key`, replacing the flattened paper-figure exports. `assets/images/keynote/sources.json` records original archive members and pixel dimensions.
+Charts and supporting visuals use ingredients from the user-supplied `egolap_figures.key`. `assets/images/keynote/sources.json` records original archive members and pixel dimensions. Overview and method now show the original paper figures at native resolution, as requested.
 
 - Original simulation and real-world chart PNGs are copied byte-for-byte at 3793×1313 and 3793×1319. The reasoning chart is copied at 2237×1574. Original legends and uncertainty bars remain intact.
 - Original robot photographs and dataset images retain their native pixel dimensions; photographic WebP files use quality 95 without downsampling.
-- Overview and method layouts use browser-rendered text with individual source images. The human and robot trajectory frames are only 224×224 and 168×168 in Keynote; they are displayed at small sizes rather than artificially enlarged.
+- Overview shows Figure 1’s left two panels through a CSS crop of the untouched 2594×982 PNG. Method shows the complete original Figure 2 at 2954×1086. Both link to their full-resolution originals. `assets/images/original/sources.json` records source paths, dimensions, crop bounds, and checksums; neither image is resampled or recompressed.
 - Two compact summary charts are rebuilt as SVG from verified results: human-data transfer (7.2% and 16.4% success) and GRPO relative improvements (19.4%, 12.7%, and 14.2%). No uncertainty estimates are invented.
 - Wide result charts scroll within their containers on phones and include links to the full-resolution originals.
 
