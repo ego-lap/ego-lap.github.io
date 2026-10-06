@@ -10,11 +10,11 @@ The included paper PDF was built from the existing public-release source. No acc
 
 ## Visual assets
 
-Charts and supporting visuals use ingredients from the user-supplied `egolap_figures.key`. `assets/images/keynote/sources.json` records original archive members and pixel dimensions. Overview and method now show the original paper figures at native resolution, as requested.
+Charts and supporting visuals use ingredients from the user-supplied `egolap_figures.key`. `assets/images/keynote/sources.json` records original archive members and pixel dimensions. Overview and method integrate the figures’ source photographs and trajectory frames with browser-rendered explanations and model components.
 
 - Original simulation and real-world chart PNGs are copied byte-for-byte at 3793×1313 and 3793×1319. The reasoning chart is copied at 2237×1574. Original legends and uncertainty bars remain intact.
 - Original robot photographs and dataset images retain their native pixel dimensions; photographic WebP files use quality 95 without downsampling.
-- Overview shows Figure 1’s left two panels through a CSS crop of the untouched 2594×982 PNG. Method shows the complete original Figure 2 at 2954×1086. Both link to their full-resolution originals. `assets/images/original/sources.json` records source paths, dimensions, crop bounds, and checksums; neither image is resampled or recompressed.
+- Overview pairs source photographs with a native HTML model diagram. The method uses all eight original folding frames beside concise motion reasoning and language-action excerpts. Annotations stay sharp at every screen size; frames retain their native 224×224 (human) and 168×168 (robot) dimensions. Original figure PNGs remain archived in `assets/images/original/` but are not embedded in the page.
 - Two compact summary charts are rebuilt as SVG from verified results: human-data transfer (7.2% and 16.4% success) and GRPO relative improvements (19.4%, 12.7%, and 14.2%). No uncertainty estimates are invented.
 - Wide result charts scroll within their containers on phones and include links to the full-resolution originals.
 
