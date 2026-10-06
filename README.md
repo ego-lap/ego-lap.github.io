@@ -34,18 +34,17 @@ python scripts/prepare_videos.py /path/to/videos
 
 Use `--titles captions.json` to label new clips. Captions for the supplied clips describe their visible manipulation; the two cloth clips use neutral labels because the source filenames do not provide task instructions. The video manifest controls showcase order and labels.
 
-## GitHub organization and Pages
+## GitHub Pages
 
-Suggested organization: `ego-lap`. It was not found by GitHub's API when checked during setup; the signup page must confirm availability.
+Organization: https://github.com/ego-lap
 
-Create the free organization at https://github.com/organizations/plan, then run from this folder:
+Website repository: https://github.com/ego-lap/ego-lap.github.io
 
-```sh
-gh repo create ego-lap/ego-lap.github.io --public --source=. --remote=origin --push
-gh api --method POST repos/ego-lap/ego-lap.github.io/pages -f build_type=workflow
-```
+Public website: https://ego-lap.github.io/
 
-The included GitHub Actions workflow publishes the site at https://ego-lap.github.io/. Organization creation requires GitHub's interactive signup; the available GitHub tools do not expose that operation. No organization or remote repository has been created yet.
+GitHub Pages is configured to deploy through `.github/workflows/pages.yml`. Pushing to `main` publishes the latest website automatically. The workflow stages only the website files and assets; scripts and documentation remain in the repository.
+
+To update the live website, edit and verify locally, then commit and push to `main`. Deployment status is visible in the repository's Actions tab.
 
 ## Validation
 
