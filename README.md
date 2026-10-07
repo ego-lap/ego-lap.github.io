@@ -53,3 +53,5 @@ Browser checks at 1440, 1024, 768, and 390 pixels verify image loading, horizont
 The mixture camera assets and dataset-weight definitions were retrieved from Codex thread `01a0c08e-97a1-7932-9648-28c008f2f21f` (“Plot dataset mixture and cameras”). `assets/images/mixture/sources.json` records their origin. Batch weights are 25% EgoVerse, 30% ABC, 25% other bimanual, and 20% OXE; rounded displayed dataset weights sum to their group totals.
 
 The website palette follows https://lap-vla.github.io/: orange accents (#EC5800 / #C45E00), charcoal controls and neutral backgrounds. `favicon.svg` uses the same Princeton shield from that website.
+
+Social previews use the absolute JPEG URL in the Open Graph and Twitter Card metadata. The 1200×630 sharing image uses the original YAM photo and site palette. Regenerate it with `python scripts/render_social_preview.py` (requires Playwright and Google Chrome).
