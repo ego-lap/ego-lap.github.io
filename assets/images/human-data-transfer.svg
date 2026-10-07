@@ -45,72 +45,72 @@ z
      <g id="line2d_1">
       <path d="M 144.01 192.62 
 L 144.01 18.7 
-" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e4eae3; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e6e6e6; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2"/>
      <g id="text_1">
-      <text style="fill: #798279; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="144.01" y="212.978281" transform="rotate(-0 144.01 212.978281)">0%</text>
+      <text style="fill: #7e7e7e; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="144.01" y="212.978281" transform="rotate(-0 144.01 212.978281)">0%</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_3">
       <path d="M 202.551304 192.62 
 L 202.551304 18.7 
-" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e4eae3; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e6e6e6; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_4"/>
      <g id="text_2">
-      <text style="fill: #798279; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="202.551304" y="212.978281" transform="rotate(-0 202.551304 212.978281)">5%</text>
+      <text style="fill: #7e7e7e; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="202.551304" y="212.978281" transform="rotate(-0 202.551304 212.978281)">5%</text>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_5">
       <path d="M 261.092609 192.62 
 L 261.092609 18.7 
-" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e4eae3; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e6e6e6; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_6"/>
      <g id="text_3">
-      <text style="fill: #798279; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="261.092609" y="212.978281" transform="rotate(-0 261.092609 212.978281)">10%</text>
+      <text style="fill: #7e7e7e; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="261.092609" y="212.978281" transform="rotate(-0 261.092609 212.978281)">10%</text>
      </g>
     </g>
     <g id="xtick_4">
      <g id="line2d_7">
       <path d="M 319.633913 192.62 
 L 319.633913 18.7 
-" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e4eae3; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e6e6e6; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8"/>
      <g id="text_4">
-      <text style="fill: #798279; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="319.633913" y="212.978281" transform="rotate(-0 319.633913 212.978281)">15%</text>
+      <text style="fill: #7e7e7e; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="319.633913" y="212.978281" transform="rotate(-0 319.633913 212.978281)">15%</text>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_9">
       <path d="M 378.175217 192.62 
 L 378.175217 18.7 
-" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e4eae3; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p84924860c5)" style="fill: none; stroke: #e6e6e6; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_10"/>
      <g id="text_5">
-      <text style="fill: #798279; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="378.175217" y="212.978281" transform="rotate(-0 378.175217 212.978281)">20%</text>
+      <text style="fill: #7e7e7e; font: 11px 'DejaVu Sans', sans-serif; text-anchor: middle" x="378.175217" y="212.978281" transform="rotate(-0 378.175217 212.978281)">20%</text>
      </g>
     </g>
     <g id="text_6">
-     <text style="fill: #637067; font: 10px 'DejaVu Sans', sans-serif; text-anchor: middle" x="278.655" y="237.864375" transform="rotate(-0 278.655 237.864375)">Zero-shot simulation success rate</text>
+     <text style="fill: #6a6a6a; font: 10px 'DejaVu Sans', sans-serif; text-anchor: middle" x="278.655" y="237.864375" transform="rotate(-0 278.655 237.864375)">Zero-shot simulation success rate</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_11"/>
      <g id="text_7">
-      <text style="fill: #34473d; font: 11px 'DejaVu Sans', sans-serif; text-anchor: end" x="132.01" y="55.692192" transform="rotate(-0 132.01 55.692192)">Human + robot data</text>
+      <text style="fill: #3e3e3e; font: 11px 'DejaVu Sans', sans-serif; text-anchor: end" x="132.01" y="55.692192" transform="rotate(-0 132.01 55.692192)">Human + robot data</text>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_12"/>
      <g id="text_8">
-      <text style="fill: #34473d; font: 11px 'DejaVu Sans', sans-serif; text-anchor: end" x="132.01" y="163.98609" transform="rotate(-0 132.01 163.98609)">Robot data only</text>
+      <text style="fill: #3e3e3e; font: 11px 'DejaVu Sans', sans-serif; text-anchor: end" x="132.01" y="163.98609" transform="rotate(-0 132.01 163.98609)">Robot data only</text>
      </g>
     </g>
    </g>
@@ -120,7 +120,7 @@ L 336.025478 26.605455
 L 336.025478 76.420648 
 L 144.01 76.420648 
 z
-" clip-path="url(#p84924860c5)" style="fill: #28624d"/>
+" clip-path="url(#p84924860c5)" style="fill: #c45e00"/>
    </g>
    <g id="patch_4">
     <path d="M 144.01 134.899352 
@@ -128,13 +128,13 @@ L 228.309478 134.899352
 L 228.309478 184.714545 
 L 144.01 184.714545 
 z
-" clip-path="url(#p84924860c5)" style="fill: #a8beae"/>
+" clip-path="url(#p84924860c5)" style="fill: #b3b3b3"/>
    </g>
    <g id="text_9">
-    <text style="fill: #28624d; font: 700 12px 'DejaVu Sans', sans-serif; text-anchor: start" x="341.879609" y="54.824301" transform="rotate(-0 341.879609 54.824301)">16.4%</text>
+    <text style="fill: #c45e00; font: 700 12px 'DejaVu Sans', sans-serif; text-anchor: start" x="341.879609" y="54.824301" transform="rotate(-0 341.879609 54.824301)">16.4%</text>
    </g>
    <g id="text_10">
-    <text style="fill: #28624d; font: 700 12px 'DejaVu Sans', sans-serif; text-anchor: start" x="234.163609" y="163.118199" transform="rotate(-0 234.163609 163.118199)">7.2%</text>
+    <text style="fill: #c45e00; font: 700 12px 'DejaVu Sans', sans-serif; text-anchor: start" x="234.163609" y="163.118199" transform="rotate(-0 234.163609 163.118199)">7.2%</text>
    </g>
   </g>
  </g>

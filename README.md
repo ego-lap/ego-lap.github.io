@@ -1,6 +1,6 @@
 # EgoLAP project website
 
-Static project website for **EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning**. Content and author order come from the current `-ICLR-2027-Ego-LAP/arxiv.tex` release and shared paper sections. The design uses a warm neutral background, forest-green accents, spacious typography, a prominent interactive video showcase, and a sticky navigation bar. HTML, CSS, and JavaScript are implemented independently. Research content is retained from the paper; the new layout prioritizes its demonstrations.
+Static project website for **EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning**. Content and author order come from the current `-ICLR-2027-Ego-LAP/arxiv.tex` release and shared paper sections. The design uses a white background, charcoal controls and LAP-style orange accents, spacious typography, a prominent interactive video showcase, and a sticky navigation bar. HTML, CSS, and JavaScript are implemented independently. Research content is retained from the paper; the new layout prioritizes its demonstrations.
 
 ## Preview
 
@@ -51,3 +51,5 @@ To update the live website, edit and verify locally, then commit and push to `ma
 Browser checks at 1440, 1024, 768, and 390 pixels verify image loading, horizontal overflow, and JavaScript errors. All seven cropped clips play in the browser. Task switching, playback speed, camera views, citation copying, and reduced-motion behavior are checked. The citation button supports copying with a readable fallback. Tables scroll on narrow screens; navigation and controls support keyboard focus and reduced motion. Deployment contains only the public site and its assets, excluding processing scripts and documentation.
 
 The mixture camera assets and dataset-weight definitions were retrieved from Codex thread `01a0c08e-97a1-7932-9648-28c008f2f21f` (“Plot dataset mixture and cameras”). `assets/images/mixture/sources.json` records their origin. Batch weights are 25% EgoVerse, 30% ABC, 25% other bimanual, and 20% OXE; rounded displayed dataset weights sum to their group totals.
+
+The website palette follows https://lap-vla.github.io/: orange accents (#EC5800 / #C45E00), charcoal controls and neutral backgrounds. `favicon.svg` uses the same Princeton shield from that website.
