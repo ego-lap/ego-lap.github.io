@@ -1,0 +1,66 @@
+{
+  "source_thread": "01a0c08e-97a1-7932-9648-28c008f2f21f",
+  "weights_reference": "Current arXiv training mixture; export_keynote_assets.py ROWS",
+  "assets": [
+    {
+      "file": "mecka_dataset_part6.jpg",
+      "source": "/home/irom-lab/.codex/visualizations/2026/09/20/01a0c08e-97a1-7932-9648-28c008f2f21f/frames/mecka_dataset_part6.jpg",
+      "dataset": "MECKA",
+      "batch_percent": 20
+    },
+    {
+      "file": "scale_dataset_part1.jpg",
+      "source": "/home/irom-lab/.codex/visualizations/2026/09/20/01a0c08e-97a1-7932-9648-28c008f2f21f/frames/scale_dataset_part1.jpg",
+      "dataset": "Scale",
+      "batch_percent": 4.15
+    },
+    {
+      "file": "aria_dataset.jpg",
+      "source": "/home/irom-lab/.codex/visualizations/2026/09/20/01a0c08e-97a1-7932-9648-28c008f2f21f/frames/aria_dataset.jpg",
+      "dataset": "Aria",
+      "batch_percent": 0.85
+    },
+    {
+      "file": "abc_yam_dataset.jpg",
+      "source": "/home/irom-lab/.codex/visualizations/2026/09/20/01a0c08e-97a1-7932-9648-28c008f2f21f/frames/abc_yam_dataset.jpg",
+      "dataset": "ABC YAM",
+      "batch_percent": 30
+    },
+    {
+      "file": "agibot_large_dataset.jpg",
+      "source": "/home/irom-lab/.codex/visualizations/2026/09/20/01a0c08e-97a1-7932-9648-28c008f2f21f/frames/agibot_large_dataset.jpg",
+      "dataset": "AgiBot",
+      "batch_percent": 15
+    },
+    {
+      "file": "part2_r1_lite.jpg",
+      "source": "/home/irom-lab/.codex/visualizations/2026/09/20/01a0c08e-97a1-7932-9648-28c008f2f21f/frames/part2_r1_lite.jpg",
+      "dataset": "Galaxea",
+      "batch_percent": 5
+    },
+    {
+      "file": "molmoact2_yam_dataset.jpg",
+      "source": "/home/irom-lab/.codex/visualizations/2026/09/20/01a0c08e-97a1-7932-9648-28c008f2f21f/frames/molmoact2_yam_dataset.jpg",
+      "dataset": "MolmoAct2",
+      "batch_percent": 5
+    },
+    {
+      "file": "droid.jpg",
+      "source": "/home/irom-lab/.codex/visualizations/2026/09/20/01a0c08e-97a1-7932-9648-28c008f2f21f/frames/droid.jpg",
+      "dataset": "DROID",
+      "batch_percent": 12
+    },
+    {
+      "file": "fractal20220817_data.jpg",
+      "source": "/home/irom-lab/.codex/visualizations/2026/09/20/01a0c08e-97a1-7932-9648-28c008f2f21f/frames/fractal20220817_data.jpg",
+      "dataset": "Fractal",
+      "batch_percent": 5
+    },
+    {
+      "file": "bridge_v2_oxe.jpg",
+      "source": "/home/irom-lab/.codex/visualizations/2026/09/20/01a0c08e-97a1-7932-9648-28c008f2f21f/frames/bridge_v2_oxe.jpg",
+      "dataset": "Bridge",
+      "batch_percent": 2
+    }
+  ]
+}
