@@ -22,7 +22,7 @@ Re-extract source assets with `python scripts/extract_keynote_assets.py /path/to
 
 ## Videos
 
-All seven user-provided clips are included. Each original 672×224 three-camera video had 50-pixel black borders above and below the content; the encoded output is cropped to 672×124. Original attachments remain untouched. H.264 output uses fast-start metadata and includes posters.
+Six user-provided clips are shown as zero-shot evaluation on an unseen YAM configuration; the corn clip was removed from the gallery. Each original 672×224 three-camera video had 50-pixel black borders above and below the content; the encoded output is cropped to 672×124. Original attachments remain untouched. H.264 output uses fast-start metadata and includes posters.
 
 The showcase includes task selection, all-camera and individual-camera views, playback speed, seeking, pause, and fullscreen. Mobile starts with the base camera to keep the action readable. Autoplay is disabled for reduced-motion preferences; videos pause when outside the viewport or when the page is hidden.
 
@@ -32,7 +32,7 @@ To process new clips, download them into a folder outside this checkout and run:
 python scripts/prepare_videos.py /path/to/videos
 ```
 
-Use `--titles captions.json` to label new clips. Captions for the supplied clips describe their visible manipulation; the two cloth clips use neutral labels because the source filenames do not provide task instructions. The video manifest controls showcase order and labels.
+Use `--titles captions.json` to label new clips. Captions for the supplied clips follow the author’s corrected task labels. The video manifest controls showcase order and labels.
 
 ## GitHub Pages
 
@@ -48,7 +48,7 @@ To update the live website, edit and verify locally, then commit and push to `ma
 
 ## Validation
 
-Browser checks at 1440, 1024, 768, and 390 pixels verify image loading, horizontal overflow, and JavaScript errors. All seven cropped clips play in the browser. Task switching, playback speed, camera views, citation copying, and reduced-motion behavior are checked. The citation button supports copying with a readable fallback. Tables scroll on narrow screens; navigation and controls support keyboard focus and reduced motion. Deployment contains only the public site and its assets, excluding processing scripts and documentation.
+Browser checks at 1440, 1024, 768, and 390 pixels verify image loading, horizontal overflow, and JavaScript errors. All six displayed cropped clips play in the browser. Task switching, playback speed, camera views, citation copying, and reduced-motion behavior are checked. The citation button supports copying with a readable fallback. Tables scroll on narrow screens; navigation and controls support keyboard focus and reduced motion. Deployment contains only the public site and its assets, excluding processing scripts and documentation.
 
 The mixture camera assets and dataset-weight definitions were retrieved from Codex thread `01a0c08e-97a1-7932-9648-28c008f2f21f` (“Plot dataset mixture and cameras”). `assets/images/mixture/sources.json` records their origin. Batch weights are 25% EgoVerse, 30% ABC, 25% other bimanual, and 20% OXE; rounded displayed dataset weights sum to their group totals.
 

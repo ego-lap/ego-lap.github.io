@@ -53,7 +53,7 @@
   {
     "file": "y__2026_09_11_16_46_12.mp4",
     "poster": "y__2026_09_11_16_46_12.jpg",
-    "title": "Place the blue bowl",
+    "title": "Place the bottle into the blue bowl",
     "source": "y__2026_09_11_16_46_12.mp4",
     "original_size": [
       672,
@@ -70,7 +70,7 @@
   {
     "file": "lap_reason__2026_09_09_22_20_30.mp4",
     "poster": "lap_reason__2026_09_09_22_20_30.jpg",
-    "title": "Handle the cloth",
+    "title": "Handover and put the object in the bowl",
     "source": "lap_reason__2026_09_09_22_20_30.mp4",
     "original_size": [
       672,
@@ -87,7 +87,7 @@
   {
     "file": "video_2026_10_03_18_26_33.mp4",
     "poster": "video_2026_10_03_18_26_33.jpg",
-    "title": "Manipulate the cloth",
+    "title": "Put the banana on the plate",
     "source": "video_2026_10_03_18_26_33.mp4",
     "original_size": [
       672,
@@ -99,23 +99,6 @@
       0,
       50
     ],
-    "category": "Bimanual coordination"
-  },
-  {
-    "file": "lap_reason__2026_09_16_16_51_17.mp4",
-    "poster": "lap_reason__2026_09_16_16_51_17.jpg",
-    "title": "Manipulate the corn",
-    "source": "lap_reason__2026_09_16_16_51_17.mp4",
-    "original_size": [
-      672,
-      224
-    ],
-    "crop": [
-      672,
-      124,
-      0,
-      50
-    ],
-    "category": "Object manipulation"
+    "category": "Pick and place"
   }
 ]
