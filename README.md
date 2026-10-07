@@ -6,7 +6,7 @@ Static project website for **EgoLAP: Learning from Egocentric Human Data through
 
 Run `python -m http.server 8765` from this folder and visit http://localhost:8765/.
 
-The included paper PDF was built from the existing public-release source. No acceptance claim, arXiv identifier, or public code/checkpoint URL has been invented.
+Paper links point to https://arxiv.org/abs/2610.08726, and the citation uses its arXiv BibTeX. The local paper PDF remains archived; code and checkpoints are marked coming soon.
 
 ## Visual assets
 
@@ -14,7 +14,7 @@ Charts and supporting visuals use ingredients from the user-supplied `egolap_fig
 
 - Original simulation and real-world chart PNGs are copied byte-for-byte at 3793×1313 and 3793×1319. The reasoning chart is copied at 2237×1574. Original legends and uncertainty bars remain intact.
 - Original robot photographs and dataset images retain their native pixel dimensions; photographic WebP files use quality 95 without downsampling.
-- Overview pairs source photographs with a native HTML model diagram. The method uses all eight original folding frames beside concise motion reasoning and language-action excerpts. Annotations stay sharp at every screen size; frames retain their native 224×224 (human) and 168×168 (robot) dimensions. Original figure PNGs remain archived in `assets/images/original/` but are not embedded in the page.
+- One integrated diagram shows the four training-data groups and mixture weights, explains the motivation for motion-level reasoning, and connects a clearly labeled cloth-folding example to the model architecture. All eight original frames appear beside concise reasoning and action excerpts. A separate inference path emphasizes action-expert rollout with no generated text. Native HTML annotations stay sharp; frames retain their original 224×224 (human) and 168×168 (robot) dimensions. Original figures remain archived in `assets/images/original/` without being embedded.
 - Two compact summary charts are rebuilt as SVG from verified results: human-data transfer (7.2% and 16.4% success) and GRPO relative improvements (19.4%, 12.7%, and 14.2%). No uncertainty estimates are invented.
 - Wide result charts scroll within their containers on phones and include links to the full-resolution originals.
 
